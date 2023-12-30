@@ -1,0 +1,6 @@
+USED FOR CREATING OBJECT FILE
+nasm -f elf hellowWorld.asm -o hellowWorld.o
+USED FOR CREATING A BINARY
+ld -m elf_i386 hellowWorld.o -o hellowWorld
+USED FOR EXECUTING BINARY
+./hellowWorld
