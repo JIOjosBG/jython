@@ -1,0 +1,1 @@
+int newPrint(int x);
